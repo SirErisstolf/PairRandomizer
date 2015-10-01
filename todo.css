@@ -1,0 +1,62 @@
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#members{
+  text-decoration: bold;
+  font-family: arial;
+  font-size: 20;
+      }
+#tittle{
+  text-decoration: bold;
+  font-family: arial;
+  font-size: 20;
+}
+
+#member{
+  
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  width: 140px; 
+  text-align: center;
+  color: white;
+  text-decoration: bold;
+  font-family: arial;
+  font-size: 30;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+#container {
+  width: 284px;
+  overflow: auto;
+  border-style: solid;
+  border-width: 1px;
+  margin : 10px;
+  background-color: red;
+
+}
+
+.button {
+     
+    /*Step 2: Basic Button Styles*/
+    display: block;
+    height: 100px;
+    width: 300px;
+    background: #34696f;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+     
+    /*Step 3: Text Styles*/
+    color: white;
+    text-align: center;
+    margin-left: 3px;
+    font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+ 
+/*Step 3: Link Styling*/
+a.button {
+    text-decoration: none;
+}
+

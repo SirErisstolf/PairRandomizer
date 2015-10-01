@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="randomApp">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <div ng-controller="RandominzerController as randomizer" id = "members">
+      <div ng-repeat="ran in randomizer.pairs"> 
+        <div id="container">
+          <div id = "member" >{{ran.member1}} </div><div id = "member" >{{ran.member2}}</div><br>
+        </div>  
+      </div>
+      <form ng-submit=" randomizer.getPairs()">
+        <input class="button" type="submit" value="Pares" >
+      </form >
+    </div>
+  </body>
+</html>
